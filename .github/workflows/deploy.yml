@@ -30,4 +30,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist
+          commit_message: "Deploy from GitHub Actions: ${{ github.sha }}"
           exclude_assets: ""
