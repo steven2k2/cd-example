@@ -14,11 +14,16 @@ https://steven2k2.github.io/cd-example/.
 | **Environment Separation**  | ❌               | No distinct staging or production environments or workflows.                |
 | **Artifact Storage**        | ❌               | Build artifacts are not stored in GitHub Actions for debugging or rollback. |
 
-![Build](https://github.com/steven2k2/cd-example/actions/workflows/deploy.yml/badge.svg)
-![Coverage](https://img.shields.io/badge/Coverage-85%25-brightgreen)
-![License](https://img.shields.io/github/license/steven2k2/cd-example)
+# cd-example
 
-![Version](https://img.shields.io/github/package-json/v/steven2k2/cd-example)
+![Build Status](https://github.com/steven2k2/cd-example/actions/workflows/deploy.yml/badge.svg)
+![Coverage](https://img.shields.io/badge/coverage-80%25-brightgreen)
+![Linting](https://img.shields.io/badge/linting-ESLint-brightgreen)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![License](https://img.shields.io/github/license/steven2k2/cd-example)
+![Last Commit](https://img.shields.io/github/last-commit/steven2k2/cd-example)
+![Open Issues](https://img.shields.io/github/issues/steven2k2/cd-example)
+![Testing](https://img.shields.io/badge/testing-Jest-brightgreen)
 
 
 
