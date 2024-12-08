@@ -22,7 +22,6 @@ https://steven2k2.github.io/cd-example/.
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![License](https://img.shields.io/github/license/steven2k2/cd-example)
 ![Last Commit](https://img.shields.io/github/last-commit/steven2k2/cd-example)
-![Open Issues](https://img.shields.io/github/issues/steven2k2/cd-example)
 ![Testing](https://img.shields.io/badge/testing-Jest-brightgreen)
 
 
