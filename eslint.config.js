@@ -1,10 +1,16 @@
-import globals from "globals";
-import pluginJs from "@eslint/js";
-import pluginReact from "eslint-plugin-react";
+import react from 'eslint-plugin-react';
+import globals from 'globals';
 
-/** @type {import('eslint').Linter.Config[]} */
 export default [
-  { ignores: ['dist'] },
+  {
+    ignores: [
+      'dist/',
+      'coverage/',
+      '**/__tests__/*',
+      '**/*.test.js',
+      'jest.setup.js',
+    ],
+  },
   {
     files: ["**/*.{js,mjs,cjs,jsx}"],
     languageOptions: {
@@ -15,6 +21,12 @@ export default [
         },
       },
     },
+    plugins: {
+      react,
+    },
+    rules: {
+      ...react.configs.recommended.rules,
+    },
   },
   {
     settings: {
@@ -23,6 +35,4 @@ export default [
       },
     },
   },
-  pluginJs.configs.recommended,
-  pluginReact.configs.flat.recommended,
 ];
