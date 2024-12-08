@@ -22,8 +22,8 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Run ESLint
-        run: npx eslint .
+      - name: Run linting
+        run: npm run lint
 
       - name: Run Tests with Coverage
         run: npm test -- --coverage
