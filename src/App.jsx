@@ -5,7 +5,7 @@ function App() {
     return (
         <div>
             <h1>Continuous Deployment Example</h1>
-            <p>Deployment via GitHub Actions! - TESTING PROGRAM CHANGE</p>
+            <p>Deployment via GitHub Actions! - TESTING DEPLOY</p>
         </div>
     );
 }
