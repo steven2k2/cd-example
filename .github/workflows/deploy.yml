@@ -22,6 +22,16 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
+      - name: Run Tests with Coverage
+        run: npm test -- --coverage
+
+      - name: Upload Coverage Report
+        if: always() # Ensures coverage report is uploaded even if tests fail
+        uses: actions/upload-artifact@v3
+        with:
+          name: coverage-report
+          path: coverage
+
       - name: Build the Project
         run: npm run build
 
@@ -30,6 +40,5 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist
-          enable_jekyll: false  # This automatically creates a .nojekyll file
+          enable_jekyll: false
           commit_message: "Deploy from GitHub Actions: ${{ github.sha }} on ${{ github.run_date }}"
-          exclude_assets: ""
