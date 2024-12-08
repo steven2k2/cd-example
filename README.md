@@ -24,4 +24,6 @@ https://steven2k2.github.io/cd-example/.
 
 ![Version](https://img.shields.io/github/package-json/v/steven2k2/cd-example)
 
+example: https://github.com/kentcdodds/testing-react-apps?tab=coc-ov-file
+
 
