@@ -22,14 +22,14 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Run linting
+      - name: Run Linting
         run: npm run lint
 
       - name: Run Tests with Coverage
         run: npm test -- --coverage
 
       - name: Upload Coverage Report
-        if: always() # Ensures coverage report is uploaded even if tests fail
+        if: always() # Uploads report even if tests fail
         uses: actions/upload-artifact@v3
         with:
           name: coverage-report
