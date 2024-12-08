@@ -14,16 +14,11 @@ https://steven2k2.github.io/cd-example/.
 | **Environment Separation**  | ❌               | No distinct staging or production environments or workflows.                |
 | **Artifact Storage**        | ❌               | Build artifacts are not stored in GitHub Actions for debugging or rollback. |
 
-![Coverage](https://img.shields.io/badge/Coverage-85%25-brightgreen)
-![Build](https://github.com/steven2k2/cd-example/actions/workflows/deploy.yml/badge.svg)
-
-
 ![Build](https://github.com/steven2k2/cd-example/actions/workflows/deploy.yml/badge.svg)
 ![Coverage](https://img.shields.io/badge/Coverage-85%25-brightgreen)
 ![License](https://img.shields.io/github/license/steven2k2/cd-example)
 
 ![Version](https://img.shields.io/github/package-json/v/steven2k2/cd-example)
 
-example: https://github.com/kentcdodds/testing-react-apps?tab=coc-ov-file
 
 
