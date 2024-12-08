@@ -4,5 +4,5 @@ import App from '../App';
 
 test('renders the App component', () => {
     render(<App />);
-    expect(screen.getByText(/Continuous Deployment Example/i)).toBeInTheDocument();
+    expect(screen.getByText(/CI\/CD Pipeline Progress/i)).toBeInTheDocument();
 });
