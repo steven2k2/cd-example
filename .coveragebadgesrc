@@ -1,0 +1,4 @@
+{
+  "source": "coverage/lcov.info",
+  "output": "coverage/badge.svg"
+}
