@@ -16,3 +16,12 @@ https://steven2k2.github.io/cd-example/.
 
 ![Coverage](https://img.shields.io/badge/Coverage-85%25-brightgreen)
 ![Build](https://github.com/steven2k2/cd-example/actions/workflows/deploy.yml/badge.svg)
+
+
+![Build](https://github.com/steven2k2/cd-example/actions/workflows/deploy.yml/badge.svg)
+![Coverage](https://img.shields.io/badge/Coverage-85%25-brightgreen)
+![License](https://img.shields.io/github/license/steven2k2/cd-example)
+
+![Version](https://img.shields.io/github/package-json/v/steven2k2/cd-example)
+
+
