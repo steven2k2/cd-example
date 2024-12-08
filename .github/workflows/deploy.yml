@@ -30,5 +30,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist
-          commit_message: "Deploy from GitHub Actions: ${{ github.sha }}"
+          enable_jekyll: false  # This automatically creates a .nojekyll file
+          commit_message: "Deploy from GitHub Actions: ${{ github.sha }} on ${{ github.run_date }}"
           exclude_assets: ""
