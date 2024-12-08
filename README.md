@@ -14,4 +14,5 @@ https://steven2k2.github.io/cd-example/.
 | **Environment Separation**  | ❌               | No distinct staging or production environments or workflows.                |
 | **Artifact Storage**        | ❌               | Build artifacts are not stored in GitHub Actions for debugging or rollback. |
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/steven2k2/cd-example/CI?label=build)
+![Coverage](https://img.shields.io/badge/Coverage-85%25-brightgreen)
+![Build](https://github.com/steven2k2/cd-example/actions/workflows/deploy.yml/badge.svg)
