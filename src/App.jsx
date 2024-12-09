@@ -5,7 +5,7 @@ function App() {
     return (
         <div className="App">
             <header>
-                <h1>CI/CD Pipeline Progress 09/12/2024</h1>
+                <h1>CI/CD Pipeline Progress - Added Artifact Storage</h1>
             </header>
             <main>
                 <table>
